@@ -70,8 +70,8 @@ project-automation-web
     `-- test
         `-- java
         |   `-- cl.pcfactory
-        |       `-- runners
-        |       `-- stepdefinitions
+        |       `-- cl.pcfactory.runners
+        |       `-- cl.pcfactory.stepdefinitions
         |
         `-- resources
             `-- features 
@@ -86,7 +86,12 @@ project-automation-web
 
 # Configuracion ⚙️
 # Ejecucion 🚀
+
+mvn clean test serenity:aggregate
+
 # Reportes 📊 
+
+
 
 # Recursos de interés 👩‍💻 👨‍💻
 - [Selenium](https://www.selenium.dev/documentation/)
