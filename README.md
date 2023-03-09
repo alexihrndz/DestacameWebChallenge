@@ -46,7 +46,7 @@ Generar los 2 casos de prueba (el de éxito de compra y el no exitoso)
 - [Configuracion](#configuracion-) ⚙️
 - [Ejecucion](#ejecucion-) 🚀
 - [Reportes](#reportes-) 📊 
-  - [Evidencias](https://*)
+  - [Evidencias](https://alexihrndz.github.io/destacame.cl/web-report/index.html)
 - [Recursos de interés](#recursos-de-interés--) 👩‍💻 👨‍💻
   
 # Estructura de Directorios
@@ -94,8 +94,6 @@ mvn clean test serenity:aggregate
 - [Selenium](https://www.selenium.dev/documentation/)
   - [Screenplay](https://medium.com/testvagrant/screenplay-pattern-3490c7f0c23c)
   - [Serenity BDD](https://youtube.com/playlist?list=PLeo6Q1inqlOcct4kW0L3HQJubwZqJVLd7)
-  - [Gradle](https://docs.gradle.org/current/userguide/what_is_gradle.html)
-
 
 Autor: 
   - Alexi Hernandez   🤖
