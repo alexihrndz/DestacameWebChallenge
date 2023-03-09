@@ -53,29 +53,28 @@ Generar los 2 casos de prueba (el de éxito de compra y el no exitoso)
 
 ```
 project-automation-web
-|-- build.gradle
 |-- pom.xml
 |-- serenity.properties
 `-- src
     |-- main
     |   `-- java
     |       `-- cl.pcfactory
-    |           `-- interactions
     |           `-- models
-    |           `-- questions
-    |           `-- tasks
-    |           `-- userinterfaces
     |           `-- utils
     |
     `-- test
         `-- java
         |   `-- cl.pcfactory
-        |       `-- cl.pcfactory.runners
-        |       `-- cl.pcfactory.stepdefinitions
+        |       `-- interactions
+        |       `-- questions
+        |       `-- runners
+        |       `-- stepdefinitions
+        |       `-- tasks
+        |       `-- userinterfaces
         |
         `-- resources
             `-- features 
-            `-- properties
+            `-- serenity.conf
 ```            
 
 # Pre requisitos 📄
@@ -89,9 +88,7 @@ project-automation-web
 
 mvn clean test serenity:aggregate
 
-# Reportes 📊 
-
-
+# Reportes 📊
 
 # Recursos de interés 👩‍💻 👨‍💻
 - [Selenium](https://www.selenium.dev/documentation/)
