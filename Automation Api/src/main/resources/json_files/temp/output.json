@@ -1,0 +1,22 @@
+{
+    "id": 637453103,
+    "category": {
+        "id": 1,
+        "name": "Dogs"
+    },
+    "name": "test update",
+    "photoUrls": [
+        "https://photo.url"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "tag999"
+        },
+        {
+            "id": 2,
+            "name": "tag200"
+        }
+    ],
+    "status": "cancelled"
+}
